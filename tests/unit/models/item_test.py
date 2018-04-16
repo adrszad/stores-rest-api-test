@@ -18,8 +18,7 @@ class ItemTest(BaseTest):
         item = ItemModel('test', 19.99, 1)
         expected = {
             'name': 'test',
-            'price': 19.99,
-            'id': 1
+            'price': 19.99
         }
 
         self.assertEqual(
