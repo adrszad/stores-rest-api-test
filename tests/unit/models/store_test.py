@@ -15,7 +15,8 @@ class StoreTest(BaseTest):
         store = StoreModel('test')
         expected = {
             'name': 'test',
-            'items': []
+            'items': [],
+            'id':None
         }
 
         self.assertEqual(
